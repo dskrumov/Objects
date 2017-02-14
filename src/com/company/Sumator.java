@@ -62,10 +62,8 @@ public class Sumator {
      * @return the result of the sum
      */
         public BigDecimal sum(BigDecimal a , BigDecimal b){
-
-         BigDecimal result=a.add(b);
-         return result;
-
+            BigDecimal result=a.add(b);
+            return result;
         }
 
 
